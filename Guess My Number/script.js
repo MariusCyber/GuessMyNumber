@@ -42,7 +42,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').textContent = secretNumber;
     reset();
     if (score === 20) {
-      document.querySelector('.check-count').textContent = 'a👇 Check Count: ' + checkCount;
+      document.querySelector('.check-count').textContent = '👇 Check Count: ' + checkCount;
       resetGame();
     } else {
       score += 1;
